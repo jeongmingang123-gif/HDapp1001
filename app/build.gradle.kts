@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    useLibrary("android.car")
     namespace = "io.github.jeongmingang.hdapp"
     compileSdk {
         version = release(37)
